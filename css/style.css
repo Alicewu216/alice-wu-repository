@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+  }
+  body{
+    background: url('https://i.pinimg.com/originals/80/ca/f6/80caf694d069bb4f20b486f7d57e3ecd.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+   
+  }
+
+  .container-fluid{
+    background-color: white;
+  }
+  /*set background color, style and text font size and color to page header title*/
+  #headernameXAW {
+    background-color: rgba(206, 121, 149, 0.801);
+    color: white;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight:bold;
+    background-image:rgba(204, 136, 159, 0.801);
+  }
+
+ 
+ /*set bakcground color size position and style to main content box*/
+ .wrapper {
+    background-color: white;
+    width: 900px;
+    padding: 40px;
+    margin:50px 500px 120px 80px;
+  }
+
+  /*set color, font, size, and style to "About Me" title*/
+  h1 {
+    color: palevioletred;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  /*image align to the left and set margin and size*/
+  .AboutImg {
+    float: left;
+    margin: 20px;
+    height: 200px;
+    width: 200px;
+  }
+
+  /*wrapping text around image and set size */
+  p {
+    text-align: left;
+    font-size: 20px;
+    color: gray
+  }
+
+  .footer  {
+    padding: 10px;
+    width: 100%;
+    background-color: darkslategray;
+    text-align: center;
+  }
+
+  #ContactButton {
+    background-color: pink;
+    border-radius: 1px;
+    font-size: 15px;
+    padding: 15px 30px;
+  }
+
+  .PortfolioImg {
+    margin: 20px;
+    height: 225px;
+    width: 350px;
+  }
+  .btn.btn-outline-secondary {
+    margin: 10px;
+  }
+  .project-title {
+    margin: auto;
+    font-size: 25px;
+  }
+  
+  @media (max-width: 768px) {
+    .wrapper {
+      background-color: white;
+      width: 500px;
+      padding: 40px;
+      margin:50px 50px 120px 50px;
+    }
+    .PortfolioImg {
+      width: 300px;
+      height: 225px;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    .wrapper {
+      background-color: white;
+      width: 350px;
+      padding: 40px;
+      margin:50px 20px 120px 20px;
+    }
+    .PortfolioImg {
+      width: 250px;
+      height: 200px;
+    }
+  }
+
